@@ -4,13 +4,14 @@ require('mix-html-builder');
 mix
     .js('resources/js/app.js', 'assets/js')
     .sass('resources/sass/style.scss', 'assets/css')
+    .copyDirectory('resources/fonts', 'assets/fonts')
     .copyDirectory('resources/images', 'assets/images')
     .options({
         processCssUrls: false
     })
     .html({
         output: './',
-        htmlRoot: './resources/html/index.html',
+        htmlRoot: './resources/html/*.html',
         partialRoot: './resources/html/partials',
         layoutRoot: './resources/html/layouts',
         minify: {
@@ -25,6 +26,6 @@ mix
         files: [
             'public/js/*.js',
             'public/css/*.css',
-            './*.html'
+            '.*.html'
         ]
     });
