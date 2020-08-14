@@ -15,6 +15,6 @@
 //     },
 // }).$mount('#app');
 
-window.onload = function() {
+window.onload = function () {
     console.log('page loaded')
 }
