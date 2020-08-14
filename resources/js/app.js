@@ -1,1 +1,3 @@
-console.log(123)
+window.onload = function() {
+    console.log('page loaded')
+}
