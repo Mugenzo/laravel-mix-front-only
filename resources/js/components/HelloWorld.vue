@@ -1,6 +1,10 @@
-<template></template>
+<template>
+</template>
 <script>
-export defualt {
-    
-}
+export default {
+    name: "HelloWorld",
+    mounted() {
+        console.log('HelloWorld mounted')
+    }
+};
 </script>
