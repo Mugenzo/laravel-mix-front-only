@@ -24,8 +24,8 @@ mix
             baseDir: './'
         },
         files: [
-            'public/js/*.js',
-            'public/css/*.css',
+            'assets/js/*.js',
+            'assets/css/*.css',
             '.*.html'
         ]
     });
