@@ -2,6 +2,7 @@ let mix = require('laravel-mix');
 require('mix-html-builder');
 
 mix
+    .sourceMaps(true, 'source-map')
     .js('resources/js/app.js', 'assets/js')
     .sass('resources/sass/style.scss', 'assets/css')
     .copyDirectory('resources/fonts', 'assets/fonts')
