@@ -5,7 +5,7 @@ mix
     .js('resources/js/app.js', 'assets/js')
     .sass('resources/sass/style.scss', 'assets/css')
     .copyDirectory('resources/fonts', 'assets/fonts')
-    .copyDirectory('resources/images', 'assets/images')
+    // .copyDirectory('resources/images', 'assets/images')
     .options({
         processCssUrls: false
     })
