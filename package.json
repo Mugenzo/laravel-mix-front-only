@@ -21,13 +21,13 @@
     "jquery.inputmask": "^3.3.4",
     "laravel-mix": "^5.0.4",
     "magnific-popup": "^1.1.0",
+    "mix-html-builder": "^0.6.1",
     "parsleyjs": "^2.9.2",
     "sass": "^1.26.10",
     "sass-loader": "^8.0.2",
     "slick-carousel": "^1.8.1",
+    "vue": "^2.6.12",
     "vue-template-compiler": "^2.6.11"
   },
-  "dependencies": {
-    "mix-html-builder": "^0.6.1"
-  }
+  "dependencies": {}
 }
