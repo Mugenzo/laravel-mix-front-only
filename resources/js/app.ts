@@ -15,6 +15,15 @@
 //     },
 // }).$mount('#app');
 
-window.onload = function () {
-    console.log('page loaded')
+interface Point {
+    x: number;
+    y: number;
+    z: number;
 }
+
+function logPoint(p: Point) {
+    console.log(`${p.x}, ${p.y}, ${p.z}`);
+}
+
+const point = { x: 1, y: 2, z: 3 };
+logPoint(point);
