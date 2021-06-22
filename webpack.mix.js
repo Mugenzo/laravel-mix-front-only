@@ -3,7 +3,7 @@ require('mix-html-builder');
 
 mix
     .sourceMaps(true, 'source-map')
-    .ts('resources/js/app.ts', 'assets/js')
+    .js('resources/js/app.js', 'assets/js')
     .sass('resources/sass/style.scss', 'assets/css')
     .copyDirectory('resources/fonts', 'assets/fonts')
     // .copyDirectory('resources/images', 'assets/images')
