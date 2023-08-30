@@ -2,6 +2,7 @@
 .idea/
 node_modules/
 yarn.lock
+/vendor
 
 assets/
 mix-manifest.json
