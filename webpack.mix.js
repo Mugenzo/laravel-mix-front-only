@@ -2,11 +2,12 @@ let mix = require('laravel-mix');
 require('mix-html-builder');
 
 mix
-    .sourceMaps(true, 'source-map')
+    .sourceMaps(false, 'source-map')
     .js('resources/js/app.js', 'assets/js')
     .sass('resources/sass/style.scss', 'assets/css')
+    .copyDirectory('resources/images', 'assets/images')
+    .copyDirectory('resources/uploads', 'assets/uploads')
     .copyDirectory('resources/fonts', 'assets/fonts')
-    // .copyDirectory('resources/images', 'assets/images')
     .options({
         processCssUrls: false
     })
@@ -27,6 +28,6 @@ mix
         files: [
             'assets/js/*.js',
             'assets/css/*.css',
-            '.*.html'
+            '*.html'
         ]
-    });
+    })

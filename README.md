@@ -1,8 +1,5 @@
-# Laravel Mix Only Front
+# rocket company frontend bundler 
 
-### Usage
+```yarn install```
 
-```sh
-$ yarn install
-$ yarn watch
-```
+```yarn watch```

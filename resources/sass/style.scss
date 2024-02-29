@@ -1,5 +1,7 @@
-@import "config/fonts";
-
-* {
-    font-family: $base-font;
-}
+@import "./vendor/index";
+@import "./mixins/index";
+@import "./base/index";
+@import "./components/index";
+@import "./partials/index";
+@import "./sections/index";
+@import "./pages/index";
